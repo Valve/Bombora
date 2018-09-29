@@ -1,0 +1,13 @@
+{
+  "name": "Bombora",
+  "version": "0.1",
+  "description": "Google Chrome extension to build your Georgian vocabulary",
+  "main": "index.js",
+  "repository": "git@github.com:Valve/Bombora.git",
+  "author": "Valentin Vasilyev",
+  "license": "MIT",
+  "dependencies": {
+    "csv": "^3.1.0",
+    "jquery": "^3.3.1"
+  }
+}

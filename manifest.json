@@ -2,7 +2,7 @@
   "name": "Bombora",
   "description": "Georgian language vocabulary builder",
   "chrome_url_overrides": {
-     "newtab": "main.html"
+     "newtab": "index.html"
   },
   "manifest_version": 2,
   "permissions": [ "activeTab"],
