@@ -1,6 +1,6 @@
 {
   "name": "Bombora Vocabulary",
-  "description": "Georgian language vocabulary builder",
+  "description": "Georgian language vocabulary builder. Shows a new word definition whenever you open a new tab.",
   "chrome_url_overrides": {
      "newtab": "index.html"
   },
