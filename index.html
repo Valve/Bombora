@@ -1,16 +1,38 @@
 <html>
+
 <head>
   <title>Bombora</title>
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
-  <center>
-    <div>
-      <div id="word">HELLO</div>
-      <div id="translation">Translation</div>
-    </div>
-  </center>
+  <div id="container">
+    <div id="word">Word is loading</div>
+    <div id="type-translation" class="en-word"><span id="type"></span><span id="translation"></span></div>
+    <div id="example"></div>
+    <div id="example-translation" class="en-word"></div>
+    <table id="present" class="invisible">
+      <thead>
+        <th colspan="2">Present tense</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="p1" title="I"></td>
+          <td id="p4" title="We"></td>
+        </tr>
+        <tr>
+          <td id="p2" title="You"></td>
+          <td id="p5" title="You (plural)"></td>
+        </tr>
+        <tr>
+          <td id="p3" title="She/He"></td>
+          <td id="p6" title="They"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
   <script src="jquery.min.js"></script>
   <script src="index.js"></script>
 </body>
+
 </html>

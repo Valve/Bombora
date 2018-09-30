@@ -1,7 +1,59 @@
+@font-face {
+  font-family: 'Tondo';
+  src:  url('fonts/Tondo-Regular.woff2') format('woff2'),
+        url('fonts/Tondo-Regular.woff') format('woff');
+}
+#container {
+  text-align: center;
+}
+.en-word {
+  font-family: 'Tondo'
+}
+.invisible {
+  display: none;
+}
 #word {
-  font-size: 6em;
-  color: green;
+  padding-top: 5%;
+  font-size: 5em;
+  color:#26b67c;
+}
+#type-translation {
+  padding-top: 3em;
+}
+#type {
+  color: #26b67c;
+  font-weight: bold;
+  font-size: 3em;
 }
 #translation {
-  font-size: 4em;
+  color: #26b67c;
+  font-size: 3em;
+}
+#example, #example-translation {
+  padding-top: 0.5em;
+  color: #4b504e;
+  font-size: 2em;
+}
+table {
+  margin: 0 auto;
+  border-collapse: separate;
+  border: 0.5em solid #68d;
+  border-radius: 5px;
+  text-align: center;
+}
+thead {
+  background-color: #799fff;
+  color: white;
+  font-family: 'Tondo'
+}
+th,td {
+  padding: 0.4em 1em;
+  font-size: 1.5em;
+}
+td {
+  color: #68d;
+}
+
+#present{
+  margin-top: 3em;
 }

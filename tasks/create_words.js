@@ -27,7 +27,7 @@ const readCSV = (path, done) => {
 }
 
 const writeJSON = (data, done) => {
-  fs.writeFile("words.json", JSON.stringify(data), function (err) {
+  fs.writeFile("words.json", JSON.stringify(data), (err) => {
     done(err);
   });
 }
