@@ -27,6 +27,17 @@ const readCSV = (path, done) => {
 }
 
 const writeJSON = (data, done) => {
+  let validKeys = ['id', 'type', 'word', 'tr', 'ex', 'ex_t', 'pr_1', 'pr_2', 'pr_3', 'pr_4', 'pr_5', 'pr_6'];
+  data = data.map(obj => {
+    obj.word = obj.word.toLowerCase();
+    var dup = {};
+    for(let key in obj) {
+      if(validKeys.indexOf(key) > 0) {
+        dup[key] = obj[key];
+      }
+    }
+    return dup;
+  });
   fs.writeFile("words.json", JSON.stringify(data), (err) => {
     done(err);
   });
